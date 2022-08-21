@@ -36,7 +36,6 @@ jobs:
       - name: Install dependencies
         run: |
           yarn global add ganache
-          pip install eth-brownie
       - name: brownie-compile
         run: |
           brownie compile
