@@ -36,6 +36,7 @@ jobs:
       - name: Install dependencies
         run: |
           yarn global add ganache
+          pip install -r requirements.txt
       - name: brownie-compile
         run: |
           brownie compile
